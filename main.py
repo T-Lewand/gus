@@ -5,7 +5,7 @@ import requests
 from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv(), override=True)
-
+#comment
 
 class Database:
     def __init__(self, language='pl'):
